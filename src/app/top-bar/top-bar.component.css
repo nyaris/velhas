@@ -1,6 +1,21 @@
 #titulo{
     text-align: center;
         background-image: url("/assets/images/folha.gif") ;
+        position: relative;
+        top: -13px;
         
     }
     
+#paragrafo{
+    position: relative;
+    left: 160px;
+   
+}
+
+fieldset{
+    border:3px solid rgb(124, 88, 129);
+    background-image: url("/assets/images/nuvem.gif");
+    position: relative;
+   left: 480px;
+    
+   }

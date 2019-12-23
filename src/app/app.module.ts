@@ -6,12 +6,14 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { AppComponent } from './app.component';
 import { TabuleiroComponent } from './tabuleiro/tabuleiro.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { IndicadorComponent } from './indicador/indicador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TabuleiroComponent,
-    TopBarComponent
+    TopBarComponent,
+    IndicadorComponent
   ],
   imports: [
     BrowserModule,
